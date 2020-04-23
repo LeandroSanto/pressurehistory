@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "pm_mobile",
+    "name": "Pressure History Mobile",
+    "slug": "PressureHistoryMobile",
     "platforms": [
       "ios",
       "android",
