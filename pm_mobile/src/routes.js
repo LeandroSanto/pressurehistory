@@ -11,7 +11,7 @@ import History from './pages/History';
 export default function Routes(){
     return(
         <NavigationContainer>
-            <AppStack.Navigator>
+            <AppStack.Navigator screenOptions={{headerShown: false}}>
                 <AppStack.Screen name = "Sign-in" component = {Signin} />
                 <AppStack.Screen name = "Register" component = {Register} />
                 <AppStack.Screen name = "History" component = {History} />
