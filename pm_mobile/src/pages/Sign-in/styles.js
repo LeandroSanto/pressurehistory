@@ -6,7 +6,12 @@ export default StyleSheet.create({
         flex:1,
         paddingHorizontal: 24,
         paddingTop: Constants.statusBarHeight +20,
-        backgroundColor:'#e4e4e4',
+        backgroundColor:'#515151',
+    },
+
+    centerBox:{
+        flex: 1,
+        justifyContent: 'center',
     },
     
     loginBox:{

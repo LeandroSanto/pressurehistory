@@ -16,8 +16,8 @@ export default function Signin(){
     }
     return(
         <View style={styles.container}>
-            <Text>Tela de Login</Text>
-            
+            <View style={styles.centerBox}>
+                        
             <View style={styles.loginBox}>
                 <TextInput placeholder='Informe seu Telefone' keyboardType='phone-pad' maxLength={11}/>
                 <TextInput placeholder='Digite a sua senha' keyboardType='number-pad' />
@@ -27,7 +27,7 @@ export default function Signin(){
                     <TouchableOpacity onPress={navigateToRegister} style={styles.buttonTText}><Text>Criar Conta</Text></TouchableOpacity>
                 </View>
             </View>
-
+            </View>
         </View>
     )
 };
